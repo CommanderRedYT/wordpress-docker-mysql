@@ -1,6 +1,6 @@
 services:
   wordpress:
-    image: wordpress:6.8.2-fpm-alpine
+    image: wordpress:6.9.4-fpm-alpine
     restart: always
     environment:
       WORDPRESS_DB_HOST: db
